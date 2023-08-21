@@ -1,6 +1,6 @@
-namespace kyu.kyu7;
+namespace kyu.Kyu7;
 
-public static partial class kyu7
+public static partial class Kyu7
 {
     /// <summary>
     /// Help Suzuki rake his garden!

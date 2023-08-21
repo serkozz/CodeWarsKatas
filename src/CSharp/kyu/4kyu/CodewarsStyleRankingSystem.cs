@@ -1,4 +1,4 @@
-namespace kyu.kyu4;
+namespace kyu.Kyu4;
 
 public static class CodewarsStyleRankingSystem
 {

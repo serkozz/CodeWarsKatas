@@ -1,6 +1,6 @@
-namespace kyu.kyu6;
+namespace kyu.Kyu6;
 
-public static partial class kyu6
+public static partial class Kyu6
 {
     /// <summary>
     /// Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.

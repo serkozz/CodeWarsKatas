@@ -1,6 +1,6 @@
-namespace kyu.kyu6;
+namespace kyu.Kyu6;
 
-public static partial class kyu6
+public static partial class Kyu6
 {
     /// <summary>
     /// You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.

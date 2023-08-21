@@ -1,6 +1,6 @@
-namespace kyu.kyu5;
+namespace kyu.Kyu5;
 
-public static partial class kyu5
+public static partial class Kyu5
 {
     /// <summary>
     /// Complete the function/method so that it takes a PascalCase string and returns the string in snake_case notation.
@@ -18,17 +18,26 @@ public static partial class kyu5
     /// Link
     ///     https://www.codewars.com/kata/529b418d533b76924600085d
     /// </summary>
-    public static string ToUnderscore(string str)
+    public static int[] MoveZeroes_Mine(int[] arr)
     {
-        string res = string.Empty;
-        for (var i = 0; i < str.Length; i++)
+        int zerosCount = default;
+        List<int> result = new List<int>();
+        for (int i = 0; i < arr.Length; i++)
         {
-            if (i >= 1 && char.IsUpper(str[i]) && char.IsLower(str[i - 1]))
-                res += "_";
-            res += char.ToLower(str[i]);
-            if (char.IsDigit(str[i]))
-                res += "_";
+            if (arr[i] != 0)
+                result.Add(arr[i]);
+            else
+                zerosCount++;
         }
-        return res;
+        for (int i = 0; i < zerosCount; i++)
+        {
+            result.Add(0);
+        }
+        return result.ToArray();
+    }
+
+    public static int[] MoveZeroes_MostPopular(int[] arr)
+    {
+        return arr.OrderBy(x => x == 0).ToArray();
     }
 }

@@ -19,6 +19,16 @@
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "TypeScript Debug",
+            "program": "${workspaceFolder}/src/TypeScript/main.ts",
+            "preLaunchTask": "tsc: build - src/TypeScript/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/src/TypeScript/js/**/*.js"
+            ]
         }
     ]
 }

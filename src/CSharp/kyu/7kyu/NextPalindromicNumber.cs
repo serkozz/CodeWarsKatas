@@ -1,6 +1,6 @@
-namespace kyu.kyu7;
+namespace kyu.Kyu7;
 
-public static partial class kyu7
+public static partial class Kyu7
 {
     /// <summary>
     /// There were and still are many problem in CW about palindrome numbers and palindrome strings. We suposse that you know which kind of numbers they are. If not, you may search about them using your favourite search engine.
