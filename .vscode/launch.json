@@ -9,16 +9,11 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/src/bin/Debug/net7.0/KyeStarter.dll",
+            "program": "${workspaceFolder}/src/CSharp/bin/Debug/net7.0/CSharpKyuStarter.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src",
-            "console": "internalConsole",
-            "stopAtEntry": false
-        },
-        {
-            "name": ".NET Core Attach",
-            "type": "coreclr",
-            "request": "attach"
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
         },
         {
             "type": "node",

@@ -7,7 +7,7 @@ public class Program
 {
     private static void Main(string[] _)
     {
-        Kyu5.MoveZeroes_Mine(new int[] {1, 0, 2, 0, 3, 0, 4, 0, 5});
+        var r = Kyu5.PigIt_Mine("Pig latin is cool");
         Console.WriteLine("END of MAIN");
     }
 }

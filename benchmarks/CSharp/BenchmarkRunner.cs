@@ -1,3 +1,3 @@
 using BenchmarkDotNet.Running;
 
-BenchmarkRunner.Run<MoveZeroes_Benchmark>();
+BenchmarkRunner.Run<PigIt_Benchmark>();
