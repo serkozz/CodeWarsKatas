@@ -1,3 +1,3 @@
 using BenchmarkDotNet.Running;
 
-BenchmarkRunner.Run<PigIt_Benchmark>();
+BenchmarkRunner.Run<ParseIntReloaded_Benchmark>();

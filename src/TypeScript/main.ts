@@ -1,5 +1,5 @@
-import { createPhoneNumber } from "./kyu/6kyu/createPhoneNumber";
+import { nextBigger } from "./kyu/4kyu/4kyuFuncs";
 
-let res: string = createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]);
+let res = nextBigger(12)
 
 console.log("END of MAIN");
