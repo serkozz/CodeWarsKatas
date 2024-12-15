@@ -8,7 +8,6 @@ public class Program
 {
     private static void Main(string[] _)
     {
-        var res = Kyu3.Spiralize(5);
-        Console.WriteLine("END of MAIN");
+        GameOfLife.Play();
     }
 }
